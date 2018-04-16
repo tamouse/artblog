@@ -5,15 +5,18 @@
   "private": true,
   "author": "Tamara Temple <tamouse@gmail.com>",
   "dependencies": {
+    "deploy-aws-s3-cloudfront": "^0.2.9",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sharp": "^1.6.42",
     "gatsby-plugin-styled-components": "^2.0.11",
+    "gatsby-remark-images": "^1.5.61",
     "gatsby-source-filesystem": "^1.5.32",
     "gatsby-transformer-remark": "^1.7.40",
     "gatsby-transformer-sharp": "^1.6.22",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.2.5"
   },
   "keywords": [
     "gatsby",
@@ -26,7 +29,9 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "yarn run build",
+    "deploy": "deploy-aws-s3-cloudfront --source ./public/ --bucket tamouse-art-blog --distribution E1NJXMZXAHZ3TW"
   },
   "devDependencies": {
     "prettier": "^1.12.0"
