@@ -1,0 +1,34 @@
+{
+  "name": "artblog",
+  "description": "tamouse's art blog",
+  "version": "5.0.0",
+  "private": true,
+  "author": "Tamara Temple <tamouse@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sharp": "^1.6.42",
+    "gatsby-plugin-styled-components": "^2.0.11",
+    "gatsby-source-filesystem": "^1.5.32",
+    "gatsby-transformer-remark": "^1.7.40",
+    "gatsby-transformer-sharp": "^1.6.22",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby",
+    "art",
+    "blog"
+  ],
+  "license": "UNKNOWN",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  }
+}
