@@ -78,3 +78,36 @@ This one I did by hand, fast and loose, without a subject:
 As this was an exercise, I did everything on one sheet on the block:
 
 ![final](_media/final.png "final")
+
+# Materials
+
+## Paper
+
+- Arches Aquarelle 140 lb. cold press 9x12 block.
+
+## Paint
+
+### Purple Flowers
+
+- Winsor Newton Permanent Alizerin Crimson
+- Daniel Smith Cobalt Blue
+- Daniel Smith Sap Green
+- Winsor Newton Aureolin (Cobalt Yellow)
+- Daniel Smith Quinacrodone Burnt Orange
+- Chromatic Black: WN French Ultramarine & DS Quin Burnt Orange (used
+  to shade the vase)
+
+### Roses
+
+- Winsor Newton Permanent Alizerin Crimson
+- Winsor Newton Aureolin (Cobalt Yellow)
+- Daniel Smith Sap Green
+
+## Brushes
+
+- \#4 round Dreamcatcher
+- \#10 round Dreamcatcher
+
+# Soundtrack
+
+[KBEM Jazz 88.5 fm](http://www.jazz88.fm/ "The Twin Cities voice for jazz and roots music.")
