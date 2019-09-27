@@ -6,9 +6,11 @@ learning
 
 Content directory will contain projects, such as
 `2018-04-11-spring-flowers-exercise/` that has an `index.md` file to
-create the body of the entry. Media file (mainly images, I expect)
+create the body of the entry. Media files (mainly images, I expect)
 goes into the subdirectory `_media/`, that is ignored so that large
 image files will not end up in the github repo.
+
+**Update**: media files can reside on AWS S3, and using a [plugin](https://github.com/jessestuart/gatsby-source-s3-image) can be accessed in the gatsby repo with graphql - yay :tada: 
 
 run `yarn start` to fire up gatsby in development mode.
 
